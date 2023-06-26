@@ -293,3 +293,8 @@ td, th{
     margin: 1em auto;
     
 }
+
+@media screen and (max-width:480px){
+    .caja, .principal
+    width:auto
+}
