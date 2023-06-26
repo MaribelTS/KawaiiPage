@@ -295,6 +295,6 @@ td, th{
 }
 
 @media screen and (max-width:480px){
-    .caja, .principal
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales
     width:auto
 }
