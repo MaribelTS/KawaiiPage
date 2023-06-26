@@ -1,0 +1,87 @@
+p{
+    text-align: center;
+    font-size: medium;
+    
+
+}
+body{
+    
+    
+    background: url(backgorund.png)
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+h2{
+    font-size: 52px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:
+    linear-gradient(90deg,rgb(110, 68, 128,rgb(41, 107, 164)))
+    color: transparent;
+   
+    
+    
+   
+    
+}
+ h1{
+    text-align: center;
+ }
+
+em{
+    
+}
+
+#mision{
+    font-size: 25px;
+}
+
+
+
+
+  .diferenciales{
+
+background-image: url(backgorund2.png);
+    padding: 40px;
+    
+    
+  }
+
+  h3{
+    text-align: center;
+  }
+
+
+  .items{
+    font-size: 25px;
+    font-style: italic;
+  }
+
+  .ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+   
+   
+    
+    
+  }
+.imagenDiferenciales{
+    margin: 10%;
+    width: 50%;
+    
+}
+
+  
+  
